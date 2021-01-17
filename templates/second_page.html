@@ -7,6 +7,11 @@
 </head>
 <body>
     <h1>Hello World</h1>
-    <p>Here is our custom HTML Template</p>
+    <p>This is the second page</p>
+    <ul>
+        {% for lead in leads %}
+        <li>{{ lead }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
